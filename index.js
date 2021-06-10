@@ -2,8 +2,10 @@
 //Define a employee variable and assign it to an object containing name, and street address keys
 
 function updateEmployeeWithKeyAndValue(employee,key,value) {
-    return Object.assign({},employee, {[key]:value});
+    const result = Object.assign({},employee, {[key]:value});
+        console.log(result)
 }
+
 
 //function updateEmployeeWithKeyAndValue(key,value) {
 //  return {key:value}
